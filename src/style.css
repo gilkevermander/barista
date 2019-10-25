@@ -1,0 +1,36 @@
+@import './css/reset.css';
+@import './css/vars.css';
+@import './css/header.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+
+/* *,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+
+body {
+  font-size: 2rem;
+  font-family: Roboto, sans-serif;
+  background-color: #eaeae9;
+  color: #463636;
+}
+
+.hide {
+  display: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/** [TODOLABO]: maak gebruik van nieuwe media query syntax */
+/* @media screen and (min-width: 500px) {
+
+} */

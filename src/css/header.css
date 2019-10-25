@@ -1,0 +1,30 @@
+.h2-like {
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.h1-like {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+
+  /* &::after {
+    content: '';
+    background-image: url(../assets/img/coffee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 13.1rem;
+  } */
+
+}
+
+.h1__wrapper {
+  display: flex;
+}
+
+.header {
+  background-color: var(--pink);
+}
