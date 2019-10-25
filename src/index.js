@@ -2,40 +2,10 @@ import data from './assets/data/coffees.json';
 import './style.css';
 
 
-
-// import {devineLog} from './js/utility/helpers';
-
-// devineLog('Hey, ik ben een JS file');
-// const arr = [1, 2, 3];
-
-// const ES6Stuff = () => devineLog('Ik kan ES6 stuff aan', ...arr);
-// ES6Stuff();
-
-
-
-// const generateCofee = () => {
-
-//   const $lijst = document.querySelector(`prices__list`);
-//   const $li = document.createElement(`li`);
-//   $li.classList.add(`price`);
-//   $li.textContent = data[0];
-//   $li.appendChild($lijst);
-
-//   return $li;
-// };
-
-
-// generateCofee();
-
 const init = () => {
-
-  // if (data.coffee.plantbased === true) {
-  //   generateCoffees(data);
-  // } else {
-  //   return false;
-  // }
-
   generateCoffees(data);
+  getOrders(orders);
+  // generateOrders(orders);
 };
 
 const generateCoffees = data => {
@@ -46,6 +16,19 @@ const generateCoffees = data => {
     $coffees.appendChild($coffee);
   });
 };
+
+
+
+// const generateOrders = orders => {
+//   const $orders = document.querySelector(`orders`);
+//   const $order = generateOrder(order);
+//   $orders.appendChild($order);
+
+// };
+
+// const generateOrder = order => {
+
+// };
 
 const generateCoffee = coffee => {
   //li maken
@@ -86,6 +69,12 @@ const generateCoffee = coffee => {
   }
 
   return $li;
+
+};
+
+const getOrders = orders => {
+  const plus = document.querySelector(`price__button__plus`);
+  if
 
 };
 
